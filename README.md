@@ -28,7 +28,7 @@ You can change your favorite keybinds.
 
 
 # Usage
-1. Open `workspace` directory with vscode
+1. Open `workspace/main.code-workspace` with vscode
 1. Create new cpp_file or Open `main.cpp`
 1. Enter the typeof test in line_2 in cpp_file (e.g. abc)
 1. Enter the number of test in line_3 in cpp_file (e.g. 123)
