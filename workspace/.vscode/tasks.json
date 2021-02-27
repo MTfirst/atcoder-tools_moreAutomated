@@ -1,0 +1,28 @@
+// tasks.json
+{
+    // See https://go.microsoft.com/fwlink/?LinkId=733558
+    // for the documentation about the tasks.json format
+    "version": "2.0.0",
+    "tasks": [
+        {
+            "label": "atocoder-tools_test",
+            "type": "shell",
+            "command": "sh ./atcoder-tools/test.sh ${fileBasename}",
+            "presentation": {
+                "reveal": "always",
+                "focus": true,
+                "panel": "shared",
+            },
+        },
+        {
+            "label": "atocoder-tools_submit",
+            "type": "shell",
+            "command": "sh ./atcoder-tools/submit.sh ${fileBasename}",
+            "presentation": {
+                "reveal": "always",
+                "focus": true,
+                "panel": "shared",
+            }
+        }
+    ]
+}
